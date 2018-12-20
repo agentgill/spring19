@@ -38,11 +38,7 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Application_Record_Page</content>
-        <formFactor>Large</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
+        <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
@@ -145,14 +141,6 @@
         <fullName>All</fullName>
         <filterScope>Everything</filterScope>
         <label>All</label>
-    </listViews>
-    <listViews>
-        <fullName>My_Applications</fullName>
-        <columns>NAME</columns>
-        <columns>FirstName__c</columns>
-        <columns>LastName__c</columns>
-        <filterScope>Mine</filterScope>
-        <label>My Applications</label>
     </listViews>
     <nameField>
         <displayFormat>A-{0000}</displayFormat>

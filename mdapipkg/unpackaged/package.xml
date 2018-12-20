@@ -5,12 +5,16 @@
         <name>CustomObject</name>
     </types>
     <types>
-        <members>Application_Record_Page</members>
-        <name>FlexiPage</name>
+        <members>Application__c</members>
+        <name>CustomTab</name>
     </types>
     <types>
         <members>New_Application</members>
         <name>Flow</name>
+    </types>
+    <types>
+        <members>Application_Permission</members>
+        <name>PermissionSet</name>
     </types>
     <version>45.0</version>
 </Package>

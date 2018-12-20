@@ -1,23 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
-    <actionCalls>
-        <name>Update_My_Application_Page</name>
-        <label>Update My Application Page</label>
-        <locationX>635</locationX>
-        <locationY>164</locationY>
-        <actionName>c:UpdateScreen</actionName>
-        <actionType>component</actionType>
-        <connector>
-            <targetReference>Update_My_App</targetReference>
-        </connector>
-        <inputParameters>
-            <name>recordId</name>
-            <value>
-                <elementReference>recordId</elementReference>
-            </value>
-        </inputParameters>
-    </actionCalls>
-    <label>New Application</label>
+    <label>New Application.</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -88,9 +71,6 @@
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
-        <connector>
-            <targetReference>Update_My_Application_Page</targetReference>
-        </connector>
         <fields>
             <name>Display</name>
             <fieldText>Hello {!First_Name} , please provide the following details and upload proof of address - thank you</fieldText>

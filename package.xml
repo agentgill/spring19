@@ -8,9 +8,13 @@
         <members>Application__c</members>
         <name>CustomObject</name>
     </types>
+     <types>
+        <members>Application__c</members>
+        <name>CustomTab</name>
+    </types>
     <types>
-        <members>Application_Record_Page</members>
-        <name>FlexiPage</name>
+        <members>Application_Permission</members>
+        <name>PermissionSet</name>
     </types>
 
 
