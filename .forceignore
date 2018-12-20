@@ -3,3 +3,19 @@
 #
 
 package.xml
+
+# Special Characters %3A :
+
+# Local Ignores
+force-app/main/default/profiles/Admin.profile-meta.xml
+force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml
+force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml
+force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml
+force-app/main/default/objectTranslations/*.*
+
+
+# Remote Ignores
+Admin.profile
+Custom%3A Sales Profile.profile
+Custom%3A Marketing Profile.profile
+Custom%3A Support Profile.profile
