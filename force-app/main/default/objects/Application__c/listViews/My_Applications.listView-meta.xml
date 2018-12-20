@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Applications</fullName>
+    <columns>NAME</columns>
+    <columns>FirstName__c</columns>
+    <columns>LastName__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>My Applications</label>
+</ListView>

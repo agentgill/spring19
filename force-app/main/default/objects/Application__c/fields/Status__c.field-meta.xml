@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Basic Info</fullName>
+                <default>false</default>
+                <label>Basic Info</label>
+            </value>
+            <value>
+                <fullName>Application Details</fullName>
+                <default>false</default>
+                <label>Application Details</label>
+            </value>
+            <value>
+                <fullName>Identification</fullName>
+                <default>false</default>
+                <label>Identification</label>
+            </value>
+            <value>
+                <fullName>Banking Details</fullName>
+                <default>false</default>
+                <label>Banking Details</label>
+            </value>
+            <value>
+                <fullName>Conditions</fullName>
+                <default>false</default>
+                <label>Conditions</label>
+            </value>
+            <value>
+                <fullName>App Review</fullName>
+                <default>false</default>
+                <label>App Review</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
