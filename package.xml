@@ -16,8 +16,5 @@
         <members>Application_Permission</members>
         <name>PermissionSet</name>
     </types>
-
-
-    
     <version>45.0</version>
 </Package>
